@@ -1,8 +1,8 @@
 // Ex. 1
-let test1 = '3';
-let test2 = '3';
+let test11 = '3';
+let test12 = '3';
 		
-if (test1 == test2) {
+if (test11 == test12) {
 	console.log('+++');
 } else {
 	console.log('---');
