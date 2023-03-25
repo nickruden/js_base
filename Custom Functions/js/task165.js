@@ -11,4 +11,4 @@ function mathdiv (num) {
         }
     }
 }
-console.log(mathdiv(40)); 
+console.log(mathdiv(40));
