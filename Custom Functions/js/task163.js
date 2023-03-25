@@ -1,16 +1,16 @@
 // Ex. 1  В результате выполнения следущего кода в консоль выведется число 3, так как функция возвращает всегда только одно значение return.
-function func(num) {
+function func1(num) {
 	return num;
 	
 	let res = num ** 2;
 	return res;
 }
 
-console.log( func(3) );
+console.log( func1(3) );
 
 
 // Ex. 2  В результате выполнения следущего кода в консоль выведется: 1) Число 100; 2) Цифра 5. Функция выводит только один return, а так как в функции есть проверка условия, то в зависимости от выполнения этого условия функция вернёт одно из значений.
-function func(num) {
+function func2(num) {
 	if (num <= 0) {
 		return Math.abs(num);
 	} else {
@@ -18,12 +18,12 @@ function func(num) {
 	}
 }
 
-console.log( func(10) );
-console.log( func(-5) );
+console.log( func2(10) );
+console.log( func2(-5) );
 
 
 // Ex. 3  В результате выполнения следущего кода в консоль выведется: 1) Число 100; 2) Цифра 5. Функция возвращает только одно значение, но данная фнукция имеет проверку условия, у которого нет else, что эквивалентно выполнению всего, что не удовлетворяет условию. В зависимости от выполнения условия, вернётся одно из возможных значений.
-function func(num) {
+function func3(num) {
 	if (num <= 0) {
 		return Math.abs(num);
 	}
@@ -31,5 +31,5 @@ function func(num) {
 	return num ** 2;
 }
 
-console.log( func(10) );
-console.log( func(-5) );
+console.log( func3(10) );
+console.log( func3(-5) );
