@@ -67,14 +67,14 @@ function test10(arrnum10, func10) {
 	return arrnum10;
 }
 
-let resfunc10 = test10([1, 2, 3, 4, 5], function(num) {
+let resfunc10 = test10([1, 2, 3, 4], function(num) {
 	return num ** 2;
 });
 
 console.log(resfunc10);
 
 // Ex. 11 
-let resfunc11 = test10([1, 2, 3, 4, 5], function(num) {
+let resfunc11 = test10([1, 2, 3, 4], function(num) {
 	return num ** 3;
 });
 
