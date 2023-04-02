@@ -46,4 +46,4 @@ let arr5 = [1, 2, 3, 4, 5];
 let resultarr5 = arr5.map( function(elem, index) {
     return elem * index;
 });
-console.log(resultarr5);
+console.log(resultarr5); 
