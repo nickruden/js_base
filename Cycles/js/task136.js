@@ -1,153 +1,153 @@
-// /* Ex. 1
-// for (let i = 0; i > 10; i++) {
-// 	console.log(i);
-// } */ 
-// for (let i = 0; i <= 10; i++) {
-// 	console.log(i);
-// }
+/* Ex. 1
+for (let i = 0; i > 10; i++) {
+	console.log(i);
+} */ 
+for (let i = 0; i <= 10; i++) {
+	console.log(i);
+}
 
 
-// /* Ex. 2 
-// for (let i = 10; i > 0; i++) {
-// 	console.log(i);
-// } */
-// for (let i = 10; i >= 0; i++) {
-// 	console.log(i);
-// }
+/* Ex. 2 
+for (let i = 10; i > 0; i++) {
+	console.log(i);
+} */
+for (let i = 10; i >= 0; i++) {
+	console.log(i);
+}
 
 
-// /* Ex. 3 
-// for (let i = 10; i == 0; i--) {
-// 	console.log(i);
-// } */
-// for (let i = 10; i >= 0; i--) {
-// 	console.log(i);
-// }
+/* Ex. 3 
+for (let i = 10; i == 0; i--) {
+	console.log(i);
+} */
+for (let i = 10; i >= 0; i--) {
+	console.log(i);
+}
 
 
-// /* Ex. 4 
-// let i = 0;
+/* Ex. 4 
+let i = 0;
 
-// while (i >= 10) {
-// 	console.log(i);
-// 	i++;
-// } */
-// let i = 0;
+while (i >= 10) {
+	console.log(i);
+	i++;
+} */
+let i = 0;
 
-// while (i <= 10) {
-// 	console.log(i);
-// 	i++;
-// }
-
-
-// /* Ex. 5 
-// let res;
-
-// for (let i = 1; i <= 10; i++) {
-// 	res += i;
-// }
-
-// console.log(res); */
-// let res5 = 0;
-
-// for (let i = 1; i <= 10; i++) {
-// 	res5 += i;
-// }
-
-// console.log(res5);
+while (i <= 10) {
+	console.log(i);
+	i++;
+}
 
 
-// /* Ex. 6 
-// let res = 0;
+/* Ex. 5 
+let res;
 
-// for (let i = 1; i <= 10; i++) {
-// 	res *= i;
-// }
+for (let i = 1; i <= 10; i++) {
+	res += i;
+}
 
-// console.log(res); */
-// let res6 = 1;
+console.log(res); */
+let res5 = 0;
 
-// for (let i = 1; i <= 10; i++) {
-// 	res6 *= i;
-// }
+for (let i = 1; i <= 10; i++) {
+	res5 += i;
+}
 
-// console.log(res6);
-
-
-// /* Ex. 7 
-// let arr = ['1', '2', '3', '4', '5'];
-// let sum = 0;
-
-// for (let elem of arr) {
-// 	sum += elem;
-// }
-
-// console.log(sum); // должно вывести 15 */
-// let arr7 = ['1', '2', '3', '4', '5'];
-// let sum7 = 0;
-
-// for (let elem of arr7) {
-// 	sum7 += Number(elem);
-// }
-
-// console.log(sum7); // должно вывести 15
+console.log(res5);
 
 
-// /* Ex. 8 
-// let arr = ['1', '2', '3', '4', '5'];
-// let sum = '';
+/* Ex. 6 
+let res = 0;
 
-// for (let elem of arr) {
-// 	sum += +elem;
-// }
+for (let i = 1; i <= 10; i++) {
+	res *= i;
+}
 
-// console.log(sum); // должно вывести 15 */
-// let arr8 = ['1', '2', '3', '4', '5'];
-// let sum8 = 0;
+console.log(res); */
+let res6 = 1;
 
-// for (let elem of arr8) {
-// 	sum8 += Number(elem);
-// }
+for (let i = 1; i <= 10; i++) {
+	res6 *= i;
+}
 
-// console.log(sum8); // должно вывести 15
+console.log(res6);
 
 
-// /* Ex. 9 
-// let arr = ['1', '2', '3', '4', '5'];
-// let sum = 0;
+/* Ex. 7 
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
 
-// for (let elem of arr) {
-// 	sum = +elem;
-// }
+for (let elem of arr) {
+	sum += elem;
+}
 
-// console.log(sum); // должно вывести 15 */
-// let arr9 = ['1', '2', '3', '4', '5'];
-// let sum9 = 0;
+console.log(sum); // должно вывести 15 */
+let arr7 = ['1', '2', '3', '4', '5'];
+let sum7 = 0;
 
-// for (let elem of arr9) {
-// 	sum9 = Number(elem);
-// }
+for (let elem of arr7) {
+	sum7 += Number(elem);
+}
 
-// console.log(sum9); // должно вывести 15
+console.log(sum7); // должно вывести 15
 
 
-// /* Ex. 10 
-// let arr = ['1', '2', '3', '4', '5'];
-// let sum = 0;
+/* Ex. 8 
+let arr = ['1', '2', '3', '4', '5'];
+let sum = '';
 
-// for (let i = 0; i <= arr.length; i++) {
-// 	sum += +arr[i];
-// }
+for (let elem of arr) {
+	sum += +elem;
+}
 
-// console.log(sum); // почему-то выводит NaN */
-// let arr10 = ['1', '2', '3', '4', '5'];
-// let sum10 = 0;
+console.log(sum); // должно вывести 15 */
+let arr8 = ['1', '2', '3', '4', '5'];
+let sum8 = 0;
 
-// for (let i = 0; i <= arr10.length; i++) {
-// 	sum10 += Number(arr10[i]);
-// }
+for (let elem of arr8) {
+	sum8 += Number(elem);
+}
 
-// console.log(sum10); // почему-то выводит NaN
+console.log(sum8); // должно вывести 15
+
+
+/* Ex. 9 
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let elem of arr) {
+	sum = +elem;
+}
+
+console.log(sum); // должно вывести 15 */
+let arr9 = ['1', '2', '3', '4', '5'];
+let sum9 = 0;
+
+for (let elem of arr9) {
+	sum9 = Number(elem);
+}
+
+console.log(sum9); // должно вывести 15
+
+
+/* Ex. 10 
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let i = 0; i <= arr.length; i++) {
+	sum += +arr[i];
+}
+
+console.log(sum); // почему-то выводит NaN */
+let arr10 = ['1', '2', '3', '4', '5'];
+let sum10 = 0;
+
+for (let i = 0; i <= arr10.length; i++) {
+	sum10 += Number(arr10[i]);
+}
+
+console.log(sum10); // почему-то выводит NaN
 
 
 /* Ex. 11 
