@@ -5,4 +5,4 @@ let options = {
 	height: 500,
 };
 
-let {color, width, height} = options
+let {color, width, height} = options; 
