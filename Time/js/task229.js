@@ -21,4 +21,4 @@ function zero(num) {
 
 let diff_dates2 = date2_2.getTime() - date2_1.getTime();
 let diff_months = diff_dates2 / 1000 / 60 / 60 / 24 / 30;
-console.log(`С ${date2_1.getFullYear()}/0${date2_1.getMonth() + 1}/${date2_1.getDate()} по ${date2_2.getFullYear()}/${zero(date2_2.getMonth() + 1)}/${zero(date2_2.getDate())} прошло ${Math.round(diff_months)} месяца`);
+console.log(`С ${date2_1.getFullYear()}/0${date2_1.getMonth() + 1}/${date2_1.getDate()} по ${date2_2.getFullYear()}/${zero(date2_2.getMonth() + 1)}/${zero(date2_2.getDate())} прошло ${Math.round(diff_months)} месяца`); 
