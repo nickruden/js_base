@@ -6,6 +6,6 @@ function isLeap(year) {
     } else {
         return false;
     };
-};
+}; 
 
 console.log(isLeap(2020)); 
