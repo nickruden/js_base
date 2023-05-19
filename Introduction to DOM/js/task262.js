@@ -14,4 +14,4 @@ elem2.addEventListener('blur', () => console.log(Number(elem2.value ** 2)));
 // Ex. 3 
 let elem3 = document.querySelector('#elem3');
 
-elem3.addEventListener('focus', () => elem3.value = '');
+elem3.addEventListener('focus', () => elem3.value = ''); 
