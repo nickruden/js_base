@@ -19,4 +19,4 @@ let btn3 = document.querySelector('.wrapper__button3').addEventListener('click',
 // Ex. 4 
 let elem4 = document.querySelector('#elem4');
 
-let btn4 = document.querySelector('.wrapper__button4').addEventListener('click', () => elem4.textContent += '(' + elem4.href + ')');
+let btn4 = document.querySelector('.wrapper__button4').addEventListener('click', () => elem4.textContent += '(' + elem4.href + ')'); 
