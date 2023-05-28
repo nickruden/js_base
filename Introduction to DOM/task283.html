@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика на поиск ошибок</title>
+    <link rel="icon" href="../javascript_icon.png">
+    
+    <style>
+    .desc-block {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .desc-block__number {
+        width: 150px;
+        height: 70px;
+        background-color: yellow;
+        margin-left: 50px;
+        border: 8px double #000000;
+        border-radius: 5px;
+    }
+    .desc-block__p {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .desc-block__theme {
+        width: 700px;
+        background-color: yellow;
+        margin-left: 20px;
+        text-align: center;
+        border: 8px double #000;
+        border-radius: 5px;
+    }
+    .desc-block_h2 > span {
+        color: #7d7234;
+    }
+
+    .wrapper__body {
+        box-sizing: border-box;
+        margin-top: 40px;
+        margin-left: 50px;
+        padding-bottom: 40px;
+        width: 897px;
+        text-align: center;
+        border: 10px double #ffea00;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px rgb(255, 251, 0);
+    }
+    
+    .wrapper__body hr {
+        background-color: #ffea00;
+        height: 2px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="desc-block">
+            <div class="desc-block__number">
+                <p class="desc-block__p">Задание 283</p>
+            </div>
+            <div class="desc-block__theme">
+                <h2 class="desc-block_h2">Поиск ошибок в коде с DOM в <span> JavaScript! </span></h2>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <div class="wrapper__body">
+            <!-- Ex. 1 -->
+            <h1> Ex. 1 </h1>
+            <p id="p1">1</p>
+            <p id="p1">2</p>
+            <p id="p1">3</p> <hr> 
+
+            <!-- Ex. 2 -->
+            <h1> Ex. 2 </h1>
+            <p id="p2">1</p>
+            <p id="p2">2</p>
+            <p id="p2">3</p> <hr> 
+
+            <!-- Ex. 3 -->
+            <h1> Ex. 3 </h1>
+            <p id="p3">text</p>
+            <button id="btn3">click</button> <hr> 
+
+            <!-- Ex. 4 -->
+            <h1> Ex. 4</h1>
+            <p id="p4">1</p>
+            <p id="p4">2</p>
+            <p id="p4">3</p>
+
+            <button id="btn4">click</button> <hr> 
+
+            <!-- Ex. 5 -->
+            <h1> Ex. 5 </h1>
+            <p id="p5">1</p>
+            <p id="p5">2</p>
+            <p id="p5">3</p> <hr> 
+
+            <!-- Ex. 6 -->
+            <h1> Ex. 6 </h1>
+            <p id="p6">text1</p>
+            <p id="p6">text2</p>
+            <p id="p6">text3</p>
+            <button id="btn6">click</button> <hr> 
+
+            <!-- Ex. 7 -->
+            <h1> Ex. 7 </h1>
+            <p id="p7">1</p>
+            <p id="p7">2</p>
+            <p id="p7">3</p>
+
+            <button id="btn7">click</button> <hr> 
+
+            <!-- Ex. 8 -->
+            <h1> Ex. 8 </h1>
+            <input id="inp8">
+            <input id="inp8">
+            <input id="inp8">
+
+            <button id="btn8">click</button> <hr> 
+
+            <!-- Ex. 9 -->
+            <h1> Ex. 9 </h1>
+            <input id="inp9_1">
+            <input id="inp9_2">
+            <input id="inp9_3">
+
+            <button id="btn9">click</button> <hr> 
+
+            <!-- Ex. 10 -->
+            <h1> Ex. 10 </h1>
+            <input id="inp10_1">
+            <input id="inp10_2">
+            <p id="res10"></p>
+
+            <button id="btn10">click</button> 
+        </div>
+    </main>
+    
+    <script src="./js/task283.js"></script>
+</body>
+</html>
