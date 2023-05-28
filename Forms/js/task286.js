@@ -13,6 +13,7 @@ let btn2_2 = document.querySelector('#btn2_2');
 btn2_1.addEventListener('click', () => inp2.setAttribute('disabled', 'true'));
 btn2_2.addEventListener('click', () => inp2.disabled = false);
 
+
 // Ex. 3 
 let inp3 = document.querySelector('#inp3');
 let btn3 = document.querySelector('#btn3');
