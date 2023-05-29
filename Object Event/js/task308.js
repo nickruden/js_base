@@ -1,6 +1,6 @@
 // Ex. 1 
 let parent = document.querySelector('#parent');
-let button = document.querySelector('button');
+let button = document.querySelector('#btn');
 let block  = document.querySelector('#block');
 
 button.addEventListener('click', function(event) {
