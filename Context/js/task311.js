@@ -1,5 +1,5 @@
 // Ex. 1 
-// "use strict";
+"use strict";
 
 let elem = document.querySelector('#elem');
 elem.addEventListener('blur', parent);
