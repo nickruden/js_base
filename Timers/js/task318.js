@@ -6,5 +6,5 @@ let timerID = setInterval(() => {
 
     if (num == 0) {
         clearInterval(timerID);
-    }
+    };
 }, 1000); 
