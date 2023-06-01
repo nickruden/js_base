@@ -1,7 +1,7 @@
 // Ex. 1, 2  
-let btn1_2 = document.querySelector("#btn1-2");
+let btn = document.querySelector("#btn");
 
-btn1_2.addEventListener('click', function func() {
+btn.addEventListener('click', function func() {
     let num = 100;
 
     setInterval(() => {
@@ -9,5 +9,5 @@ btn1_2.addEventListener('click', function func() {
         console.log(num);
     }, 1000);
 
-    this.removeEventListener('click', func);
+    btn.removeEventListener('click', func);
 }); 
