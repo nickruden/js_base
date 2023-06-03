@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизация элементов</title>
+    <link rel="icon" href="../javascript_icon.png">
+    
+    <style>
+    .desc-block {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .desc-block__number {
+        width: 150px;
+        height: 70px;
+        background-color: yellow;
+        margin-left: 50px;
+        border: 8px double #000000;
+        border-radius: 5px;
+    }
+    .desc-block__p {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .desc-block__theme {
+        width: 700px;
+        background-color: yellow;
+        margin-left: 20px;
+        text-align: center;
+        border: 8px double #000;
+        border-radius: 5px;
+    }
+    .desc-block_h2 > span {
+        color: #7d7234;
+    }
+
+    .wrapper__body {
+        box-sizing: border-box;
+        margin-top: 40px;
+        margin-left: 50px;
+        padding-bottom: 40px;
+        width: 897px;
+        text-align: center;
+        border: 10px double #ffea00;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px rgb(255, 251, 0);
+    }
+    
+    .wrapper__body hr {
+        background-color: #ffea00;
+        height: 2px;
+    }
+
+    #block:not(.active) {
+	    display: none;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="desc-block">
+            <div class="desc-block__number">
+                <p class="desc-block__p">Задание 349</p>
+            </div>
+            <div class="desc-block__theme">
+                <h2 class="desc-block_h2">Стилизация элементов на <span> JavaScript! </span></h2>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <div class="wrapper__body">
+            <!-- Ex. 1 -->
+            <h1> Ex. 1 </h1>
+            <p>text1</p>
+            <p>text2</p>
+            <p>text3</p> <hr> 
+
+            <!-- Ex. 2 -->
+            <h1> Ex. 2 </h1>
+
+            <p>text1</p>
+            <p>text2</p>
+            <p>text3</p> <hr> 
+
+            <!-- Ex. 3 -->
+            <h1> Ex. 3 </h1>
+
+            <table>
+                <tr>
+                    <td>Текст 1</td>
+                </tr>
+                <tr>
+                    <td>Текст 2</td>
+                </tr>
+            </table> <hr> 
+
+            <!-- Ex. 4 -->
+            <h1> Ex. 4 </h1>
+
+            <table>
+                <tr>
+                    <td>Текст 1</td>
+                </tr>
+                <tr>
+                    <td>Текст 2</td>
+                </tr>
+            </table> 
+        </div>
+    </main>
+    
+    <script src="./js/task349.js"></script>
+</body>
+</html>
