@@ -138,7 +138,7 @@ btn11.addEventListener('click', () => {
 
 
 // Ex. 12 
-let links12 = document.querySelectorAll('#a12');
+let links12 = document.querySelectorAll('#link12');
 
 for (let link12 of links12) {
     link12.innerHTML += link12.href;
