@@ -209,7 +209,7 @@ let employees = [
   { name: "employee3", age: 32, salary: 600 },
 ];
 
-let table1 = document.getElementById("table1");
+let table6 = document.getElementById("table1");
 
 for (let employee of employees) {
   let tr1 = document.createElement("tr");
@@ -226,5 +226,5 @@ for (let employee of employees) {
   td13.textContent = employee.salary;
   tr1.appendChild(td13);
 
-  table1.appendChild(tr1);
+  table6.appendChild(tr1);
 }; 
